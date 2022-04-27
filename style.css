@@ -82,7 +82,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #00a6ff;
+    background-color: #2894b2;
 }
 
 .dropdown-content {
@@ -96,7 +96,7 @@ body {
 }
 
 .dropdown-content {
-    background: #00a6ff;
+    background: #2894b2;
     width: 100%;
     padding: 16px;
     color: #515151;
@@ -116,7 +116,7 @@ body {
 
 .column a {
     float: none;
-    color: black;
+    color: #515151;
     padding: 16px;
     text-decoration: none;
     display: block;
