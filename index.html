@@ -4,82 +4,86 @@
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="navbar">
-    <a href="https://affamen.github.io/mySite/#">К началу</a>
+<div class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">К началу</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://lyc1571sz.mskobr.ru/info_edu/basics/#/">Сайт школы</a>
+        </li>
+    </ul>
+
+
     <div class="dropdown">
-        <button class="dropbtn">Поиск
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <div class="row">
-                <div class="column">
-                    <h3>Учебные заведения</h3>
-                    <a href="https://lyc1571sz.mskobr.ru/info_edu/basics/#/">Школа</a>
-                    <a href="https://www.sechenov.ru/">Университет</a>
-                    <a href="https://www.google.com/">Самообразование</a>
-                </div>
-                <div class="column">
-                    <h3>Предметы</h3>
-                    <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0">Математика</a>
-                    <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0">Физика</a>
-                    <a href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B8%D0%BC%D0%B8%D1%8F">Химия</a>
-                </div>
-            </div>
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Предметы
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="https://lyc1571sz.mskobr.ru/info_edu/basics/#/">Школа</a></li>
+            <li><a class="dropdown-item" href="https://www.sechenov.ru/">Университет</a></li>
+            <li><a class="dropdown-item" href="https://www.google.com/">Самообразование</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4 bg-white text-dark p-3">
+            <img src="1571_copy.png" alt="">
+            <h2>Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 1571"</h2><br><br>
+            <h3>Северо-Западный административный округ<br><br> </h3>
+        </div>
+        <div class="col-8 bg-white text-gray p-3">
+            <h2>О школе</h2>
+            <h5>ПОЛНОЕ НАИМЕНОВАНИЕ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ:
+                Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 1571"
+
+                СОКРАЩЕННОЕ НАИМЕНОВАНИЕ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ:
+                ГБОУ Школа № 1571
+
+                ДАТА СОЗДАНИЯ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ:
+                Школа основана в 1972 году.
+
+                ГБОУ Лицей №1571 образован в 2005 году. Его девизом стали слова М.В.Ломоносова: «Учись во благо себя и Отечества!».
+
+                Слияние образовательных учреждений 27.08.2012
+                Реорганизовано в форме слияния на основании приказа ДОгМ №489 от 29.06.12 "О реорганизации..."
+
+                В 2017 году ГБОУ Лицей №1571 переименован в ГБОУ Школа №1571.
+
+                Своим учащимся школа предлагает следующие направления:</h5>
+            <ul style="line-height: 20.7999992370605px;">
+                <li><span style="font-size:16px;">физико-математическое;</span></li>
+                <li><span style="font-size:16px;">химико – биологическое;</span></li>
+                <li><span style="font-size:16px;">физико – химическое;</span></li>
+                <li><span style="font-size:16px;">социально - правовое;</span></li>
+                <li><span style="font-size:16px;">социально – экономическое;</span></li>
+                <li><span style="font-size:16px;">социально - гуманитарное;</span></li>
+                <li><span style="font-size:16px;">информационно-технологическое;</span></li>
+                <li><span style="font-size:16px;">медицинский класс;</span></li>
+                <li><span style="font-size:16px;">инженерный класс;</span></li>
+                <li><span style="font-size:16px;">кадетский класс;</span></li>
+                <li><span style="font-size:16px;">математическая вертикаль;</span></li>
+                <li><span style="font-size:16px;">ИТ-класс;</span></li>
+                <li><span style="font-size:16px;">медиакласс.</span></li>
+            </ul>
         </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="side">
-        <img src="1571_copy.png" alt="">
-        <h2>Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 1571"</h2><br><br>
-        <h3>Северо-Западный административный округ<br><br> </h3>
-    </div>
-    <div class="main">
-        <h2>О школе</h2>
-        <h5>ПОЛНОЕ НАИМЕНОВАНИЕ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ:
-            Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 1571"
-
-            СОКРАЩЕННОЕ НАИМЕНОВАНИЕ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ:
-            ГБОУ Школа № 1571
-
-            ДАТА СОЗДАНИЯ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ:
-            Школа основана в 1972 году.
-
-            ГБОУ Лицей №1571 образован в 2005 году. Его девизом стали слова М.В.Ломоносова: «Учись во благо себя и Отечества!».
-
-            Слияние образовательных учреждений 27.08.2012
-            Реорганизовано в форме слияния на основании приказа ДОгМ №489 от 29.06.12 "О реорганизации..."
-
-            В 2017 году ГБОУ Лицей №1571 переименован в ГБОУ Школа №1571.
-
-            Своим учащимся школа предлагает следующие направления:</h5>
-        <ul style="line-height: 20.7999992370605px;">
-            <li><span style="font-size:16px;">физико-математическое;</span></li>
-            <li><span style="font-size:16px;">химико – биологическое;</span></li>
-            <li><span style="font-size:16px;">физико – химическое;</span></li>
-            <li><span style="font-size:16px;">социально - правовое;</span></li>
-            <li><span style="font-size:16px;">социально – экономическое;</span></li>
-            <li><span style="font-size:16px;">социально - гуманитарное;</span></li>
-            <li><span style="font-size:16px;">информационно-технологическое;</span></li>
-            <li><span style="font-size:16px;">медицинский класс;</span></li>
-            <li><span style="font-size:16px;">инженерный класс;</span></li>
-            <li><span style="font-size:16px;">кадетский класс;</span></li>
-            <li><span style="font-size:16px;">математическая вертикаль;</span></li>
-            <li><span style="font-size:16px;">ИТ-класс;</span></li>
-            <li><span style="font-size:16px;">медиакласс.</span></li>
-        </ul><br>
-        </div>
-    </div>
-
-<div class="footer">
-    <h2>Контакты</h2>
+<div class="mt-6 p-4 bg-dark text-white text-center">
+    <h2>Сайт школы</h2>
     <div class="link">
-    <a href="https://lyc1571sz.mskobr.ru/info_edu/basics/#/">Сайт школы</a>
+        <a href="https://lyc1571sz.mskobr.ru/info_edu/basics/#/">Перейти</a>
     </div>
 </div>
 
